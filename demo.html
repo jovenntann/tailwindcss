@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tailwind CSS Example</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+</head>
+
+<body class="bg-gray-50 text-gray-800">
+
+    <!-- Header Section -->
+    <header class="text-center py-16 bg-gradient-to-r from-blue-500 to-purple-600 text-white">
+        <h1 class="text-4xl font-bold mb-4">Rapidly build modern websites without ever leaving your HTML.</h1>
+        <p class="text-xl mb-8">A utility-first CSS framework packed with classes like <code class="bg-gray-200 text-gray-800 px-1 rounded">flex</code>, <code class="bg-gray-200 text-gray-800 px-1 rounded">pt-4</code>, <code class="bg-gray-200 text-gray-800 px-1 rounded">text-center</code> and <code class="bg-gray-200 text-gray-800 px-1 rounded">rotate-90</code> that can be composed to build any design, directly in your markup.</p>
+        <a href="#" class="bg-white text-blue-500 px-6 py-3 rounded-full font-semibold shadow-md hover:bg-gray-100 transition duration-300">Get started</a>
+        <div class="relative mt-6">
+            <input type="text" placeholder="Quick search..." class="px-4 py-2 rounded-full text-gray-800">
+            <span class="absolute inset-y-0 right-0 flex items-center pr-3 text-gray-500">🔍</span>
+        </div>
+    </header>
+
+    <!-- Testimonial Section -->
+    <section class="max-w-5xl mx-auto p-8">
+        <figure class="md:flex bg-gray-100 rounded-xl p-8 md:p-0">
+            <img class="w-24 h-24 md:w-48 md:h-auto md:rounded-none rounded-full mx-auto" src="https://via.placeholder.com/150" alt="" width="384" height="512">
+            <div class="pt-6 md:p-8 text-center md:text-left space-y-4">
+                <blockquote>
+                    <p class="text-lg font-medium">
+                        “Tailwind CSS is the only framework that I've seen scale on large teams. It's easy to customize, adapts to any design, and the build size is tiny.”
+                    </p>
+                </blockquote>
+                <figcaption class="font-medium">
+                    <div class="text-blue-500">
+                        Sarah Dayan
+                    </div>
+                    <div class="text-gray-700">
+                        Staff Engineer, Algolia
+                    </div>
+                </figcaption>
+            </div>
+        </figure>
+    </section>
+
+</body>
+
+</html>

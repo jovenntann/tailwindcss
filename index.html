@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<!-- Start of Selection -->
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Best Practices</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="path/to/your/styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=San+Francisco:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<!-- End of Selection -->
+<body>
+
+
+    <div class="p-12 pt-20 w-full bg-gradient-to-r from-blue-50 to-purple-50">
+
+        <div class="flex flex-col items-center justify-center text-center ">
+            <h1 class="text-4xl md:text-6xl font-bold mb-4 max-w-4xl" style="font-family: 'Roboto', sans-serif;">
+                Rapidly build modern websites without ever leaving your HTML.
+            </h1>
+            <p class="text-lg max-w-2xl mb-6 text-gray-500">
+                A utility-first CSS framework packed with classes like <span class="font-bold">flex</span>, <span class="font-bold">pt-4</span>, <span class="font-bold">text-center</span> and <span class="font-bold">rotate-90</span> that can be composed to build any design, directly in your markup.
+            </p>
+            <div class="flex items-center space-x-4 mt-4">
+                <button class="bg-blue-900 text-white px-4 py-2 rounded">Get Started</button>
+                <div class="relative">
+                    <input type="text" placeholder="Quick search..." class="border border-gray-300 rounded pl-10 pr-6 py-2">
+                    <svg class="absolute left-3 top-1/2 transform -translate-y-1/2 w-5 h-5 text-gray-500" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-4.35-4.35m1.35-5.65a7 7 0 11-14 0 7 7 0 0114 0z" />
+                    </svg>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+
+    <article class="text-center py-14 bg-white text-gray-800">
+        <h2 class="text-3xl md:text-4xl font-bold mb-4" style="font-family: 'San Francisco', sans-serif;">
+            “Best practices” don’t actually work.
+        </h2>
+        <p class="text-lg max-w-2xl mx-auto text-gray-500 px-4">
+            I’ve written <a href="#" class="text-blue-500 underline">a few thousand words</a> on why traditional “semantic class names” are the reason CSS is hard to maintain, but the truth is you’re never going to believe me until you actually try it. If you can suppress the urge to retch long enough to give it a chance, I really think you’ll wonder how you ever worked with CSS any other way.
+        </p>
+        <div class="flex flex-col items-center justify-center text-center p-4 mx-4 md:mx-16 lg:mx-32">
+            <div class="bg-white p-6 rounded-lg">
+                <div class="flex items-center mb-4">
+                    <img src="https://tailwindcss.com/_next/static/media/adam.f69b0b90.jpg" alt="User Image" class="w-12 h-12 rounded-full mr-4">
+                    <div>
+                        <p class="font-semibold">Sarah Dayan</p>
+                        <p class="text-sm text-gray-500">Staff Engineer, Algolia</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </article>
+
+    
+
+
+
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 p-6 max-w-7xl mx-auto">
+
+        <div class="bg-gray-50 p-6 rounded-lg">
+            <div class="flex items-center mb-4">
+                <img src="https://tailwindcss.com/_next/static/media/adam.f69b0b90.jpg" alt="User Image" class="w-12 h-12 rounded-full mr-4">
+                <div>
+                    <p class="font-semibold">Ryan Florence</p>
+                    <p class="text-sm text-gray-500">Remix & React Training</p>
+                </div>
+            </div>
+            <p class="text-sm text-gray-700">I feel like an idiot for not using Tailwind CSS until now.</p>
+        </div>
+
+        <div class="bg-gray-50 p-6 rounded-lg">
+            <div class="flex items-center mb-4">
+                <img src="https://tailwindcss.com/_next/static/media/adam.f69b0b90.jpg" alt="User Image" class="w-12 h-12 rounded-full mr-4">
+                <div>
+                    <p class="font-semibold">Delilah O'Brien</p>
+                    <p class="text-sm text-gray-500">Senior Program Manager at Microsoft</p>
+                </div>
+            </div>
+            <p class="text-sm text-gray-700">I have been working with CSS for over ten years, and Tailwind just makes my life easier. It feels like with traditional CSS, you have to use this and that, but Tailwind is neat and organized. It simplifies the process and makes development more enjoyable.</p>
+        </div>
+
+        <div class="bg-gray-50 p-6 rounded-lg">
+            <div class="flex items-center mb-4">
+                <img src="https://tailwindcss.com/_next/static/media/adam.f69b0b90.jpg" alt="User Image" class="w-12 h-12 rounded-full mr-4">
+                <div>
+                    <p class="font-semibold">Kent C. Dodds</p>
+                    <p class="text-sm text-gray-500">Developer and Educator</p>
+                </div>
+            </div>
+            <p class="text-sm text-gray-700">Stick to the one. Like Odin's wisdom.</p>
+        </div>
+
+        <div class="bg-gray-50 p-6 rounded-lg">
+            <div class="flex items-center mb-4">
+                <img src="https://tailwindcss.com/_next/static/media/adam.f69b0b90.jpg" alt="User Image" class="w-12 h-12 rounded-full mr-4">
+                <div>
+                    <p class="font-semibold">Guillermo Rauch</p>
+                    <p class="text-sm text-gray-500">Vercel</p>
+                </div>
+            </div>
+            <p class="text-sm text-gray-700">It almost recommended a way of getting into programming finally. It works for HTML + CSS with Tailwind CSS.</p>
+        </div>
+
+        <div class="bg-gray-50 p-6 rounded-lg">
+            <div class="flex items-center mb-4">
+                <img src="https://tailwindcss.com/_next/static/media/adam.f69b0b90.jpg" alt="User Image" class="w-12 h-12 rounded-full mr-4">
+                <div>
+                    <p class="font-semibold">Ben Furfie</p>
+                    <p class="text-sm text-gray-500">Developer</p>
+                </div>
+            </div>
+            <p class="text-sm text-gray-700">I've been writing CSS for over 20 years, and up until 2017, the way I did it changed frequently.</p>
+        </div>
+
+    </div>
+
+    <div class="w-full bg-gray-100">
+        <div class="grid grid-cols-1 gap-6 p-6 max-w-7xl mx-auto mt-6">
+        <div class="w-full max-w-2xl">
+            <div class="flex items-center mb-4">
+                <img src="https://via.placeholder.com/50" alt="User Image" class="w-12 h-12 rounded-full mr-4">
+            </div>
+            <p class="font-semibold text-indigo-500 text-sm mb-4">Mobile-first</p>
+            <h2 class="text-3xl font-bold mb-2 mb-4">Responsive everything.</h2>
+            <p class="text-sm text-gray-500 mb-4">Wrestling with a bunch of complex media queries in your CSS sucks, so Tailwind lets you build responsive designs right in your HTML instead.</p>
+            <p class="text-sm text-gray-500 mb-4">Throw a screen size in front of literally any utility class and watch it magically apply at a specific breakpoint.</p>
+            <div class="flex justify-start">
+                <a href="#" class="bg-indigo-100 text-indigo-500 text-sm px-4 py-2 rounded-full font-semibold shadow-md hover:bg-indigo-200 transition duration-300 my-4 mt-2 flex items-center">
+                    Learn more
+                </a>
+            </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+    <div class="p-6 max-w-7xl mx-auto mt-6 shadow rounded-lg">
+        <div class="flex justify-between items-center mb-4">
+            <h2 class="text-2xl font-bold">Projects</h2>
+            <button class="bg-blue-500 text-white text-sm px-4 py-2 rounded-md flex items-center">
+                <span class="mr-2">+</span> New
+            </button>
+        </div>
+        <div class="mb-4">
+            <input type="text" placeholder="Filter projects..." class="w-full p-2 border rounded-lg">
+        </div>
+        <div class="grid grid-cols-2 gap-4">
+            <div class="border p-4 rounded-lg">
+                <h3 class="font-semibold">API Integration</h3>
+                <p class="text-sm text-gray-500">Engineering</p>
+                <div class="flex mt-2">
+                    <img src="https://tailwindcss.com/_next/static/media/adam.f69b0b90.jpg" alt="User Image" class="w-6 h-6 rounded-full border-2 border-white -mr-2">
+                    <img src="https://tailwindcss.com/_next/static/media/adam.f69b0b90.jpg" alt="User Image" class="w-6 h-6 rounded-full border-2 border-white -mr-2">
+                    <img src="https://tailwindcss.com/_next/static/media/adam.f69b0b90.jpg" alt="User Image" class="w-6 h-6 rounded-full border-2 border-white -mr-2">
+                    <img src="https://tailwindcss.com/_next/static/media/adam.f69b0b90.jpg" alt="User Image" class="w-6 h-6 rounded-full border-2 border-white -mr-2">
+                    <img src="https://tailwindcss.com/_next/static/media/adam.f69b0b90.jpg" alt="User Image" class="w-6 h-6 rounded-full border-2 border-white -mr-2">
+                </div>
+            </div>
+            <div class="border p-4 rounded-lg">
+                <h3 class="font-semibold">New Benefits Plan</h3>
+                <p class="text-sm text-gray-500">Human Resources</p>
+                <div class="flex mt-2">
+                    <img src="https://tailwindcss.com/_next/static/media/adam.f69b0b90.jpg" alt="User Image" class="w-6 h-6 rounded-full border-2 border-white -mr-2">
+                    <img src="https://tailwindcss.com/_next/static/media/adam.f69b0b90.jpg" alt="User Image" class="w-6 h-6 rounded-full border-2 border-white -mr-2">
+                    <img src="https://tailwindcss.com/_next/static/media/adam.f69b0b90.jpg" alt="User Image" class="w-6 h-6 rounded-full border-2 border-white -mr-2">
+                    <img src="https://tailwindcss.com/_next/static/media/adam.f69b0b90.jpg" alt="User Image" class="w-6 h-6 rounded-full border-2 border-white -mr-2">
+                    <img src="https://tailwindcss.com/_next/static/media/adam.f69b0b90.jpg" alt="User Image" class="w-6 h-6 rounded-full border-2 border-white -mr-2">
+                </div>
+            </div>
+            <div class="border p-4 rounded-lg">
+                <h3 class="font-semibold">Onboarding Emails</h3>
+                <p class="text-sm text-gray-500">Customer Success</p>
+                <div class="flex mt-2">
+                    <img src="https://tailwindcss.com/_next/static/media/adam.f69b0b90.jpg" alt="User Image" class="w-6 h-6 rounded-full border-2 border-white -mr-2">
+                    <img src="https://tailwindcss.com/_next/static/media/adam.f69b0b90.jpg" alt="User Image" class="w-6 h-6 rounded-full border-2 border-white -mr-2">
+                    <img src="https://tailwindcss.com/_next/static/media/adam.f69b0b90.jpg" alt="User Image" class="w-6 h-6 rounded-full border-2 border-white -mr-2">
+                    <img src="https://tailwindcss.com/_next/static/media/adam.f69b0b90.jpg" alt="User Image" class="w-6 h-6 rounded-full border-2 border-white -mr-2">
+                    <img src="https://tailwindcss.com/_next/static/media/adam.f69b0b90.jpg" alt="User Image" class="w-6 h-6 rounded-full border-2 border-white -mr-2">
+                </div>
+            </div>
+            <div class="border-dashed border-2 p-4 rounded-lg flex items-center justify-center">
+                <button class="text-blue-500 flex items-center">
+                    <span class="mr-2">+</span> New project
+                </button>
+            </div>
+        </div>
+    </div>
+
+
+
+</body>
+</html>
